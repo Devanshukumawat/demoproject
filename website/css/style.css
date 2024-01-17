@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    padding: 20px;
+}
+
+/* ---------------Header------------- */
+
+.header{
+    height: 95vh;
+    background-image: url("/media/Premium\ Photo\ _\ Composition\ of\ small\ airplane\ tickets\ and\ globe.jpeg");
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)
+}
+
+.text h1{
+   text-align: center;
+   font-size: 50px;
+   color: azure;
+   text-shadow: 0px 0px 10px black;
+}
+
+/* -------------------Navbar--------------- */
+
+.navbar{
+    background-color: black;
+    padding: 30px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 20px;  
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: navajowhite;
+}
+
+/* --------------Section-1---------------- */
+
+.section1 h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.box1{
+    background-color: rgb(185, 16, 54);
+    width: 40%;
+    height: 40vh;
+    position: relative;
+
+}
+.content{
+    max-width: 400px;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    
+}
+
+.box2{
+    background-image: url("/media/gallery_05_crop-375x210.webp");
+    background-size: cover;
+    width: 40%;
+    height: 40vh;  
+}
+
+.content .btn{
+    background-color: white;
+    color: black;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+}
+
+/* --------------Section-2---------------- */
+
+.section2 h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.main1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.main1 .container1{
+    background-color:rgb(246, 211, 91);
+    width: 40%;
+    height: 40vh;
+    position: relative;
+
+}
+.info1{
+    max-width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    
+}
+
+.main1 .container2{
+    background-image: url("/media/transportation-plan-your-trip_crop-375x210.webp");
+    background-size: cover;
+    width: 40%;
+    height: 40vh;  
+}
+
+.info1 .btn1{
+    background-color: rgb(185, 16, 54);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+}
+
+/* --------------Section-3---------------- */
+
+.section3 h2{
+    text-align: center;
+    font-size: 40px;
+}
+.main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.main2 .container1{
+    background-image: url("/media/getting_around_01_1920x1080_crop-375x210.webp");
+    background-size: cover;
+    width: 40%;
+    height: 40vh;
+
+}
+
+
+.main2 .container2{
+    background-color:rgb(246, 211, 91) ;
+    width: 40%;
+    height: 40vh; 
+    position: relative; 
+}
+
+.info2{
+    max-width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    
+}
+
+.info2 .btn2{
+    background-color: rgb(185, 16, 54);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+}
+
+/* --------------Section-3---------------- */
+
+
+.main3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.main3 .container1{
+    background-image: url("/media/Screenshot\ 2023-11-06\ 015338.png");
+    background-size: cover;
+    width: 40%;
+    height: 40vh;
+
+}
+
+
+.main3 .container2{
+    background-color:rgb(246, 211, 91);
+    width: 40%;
+    height: 40vh; 
+    position: relative; 
+}
+
+.info3{
+    max-width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    
+}
+
+.info3 .btn3{
+    background-color:rgb(185, 16, 54);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width:700px) {
+    .navbar ul li{
+    display: block;
+}
+.navbar ul li a:hover{
+    color: rgb(189, 174, 7);
+}
+.main{
+    flex-direction: column;
+    flex-flow: column-reverse;
+}
+}
